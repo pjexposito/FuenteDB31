@@ -17,10 +17,10 @@ static void init() {
   Layer *window_layer = window_get_root_layer(window);
   GRect bounds = layer_get_bounds(window_layer);
 
-  GFont custom_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_EJEMPLO_BOLD_64));
+  GFont custom_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_MINI_BOLD_32));
 
   text_layer = text_layer_create(bounds);
-  text_layer_set_text(text_layer, "12:44");
+  text_layer_set_text(text_layer, "1244");
   text_layer_set_font(text_layer, custom_font);
   layer_add_child(window_layer, text_layer_get_layer(text_layer));
 }

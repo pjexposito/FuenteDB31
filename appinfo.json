@@ -9,28 +9,16 @@
     "resources": {
         "media": [
             {
+                "characterRegex": "[0-9]",
+                "file": "fonts/digitospequeos.ttf",
+                "name": "MINI_BOLD_32",
+                "type": "font"
+            },
+            {
                 "characterRegex": "[0-9:]",
                 "file": "fonts/digitos.ttf",
                 "name": "EJEMPLO_BOLD_64",
                 "trackingAdjust": -8,
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9:.]",
-                "file": "fonts/DS-DIGIB.TTF",
-                "name": "FUENTE_BOLD_48",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9:.]",
-                "file": "fonts/DS-DIGI.TTF",
-                "name": "EJEMPLO_44",
-                "type": "font"
-            },
-            {
-                "compatibility": "2.7",
-                "file": "fonts/OSP-DIN_44.ttf",
-                "name": "FONT_OSP_DIN_44",
                 "type": "font"
             }
         ]
