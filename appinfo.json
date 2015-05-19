@@ -1,0 +1,46 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "pjexposito@gmail.com",
+    "longName": "cf",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/digitos.ttf",
+                "name": "EJEMPLO_BOLD_64",
+                "trackingAdjust": -8,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:.]",
+                "file": "fonts/DS-DIGIB.TTF",
+                "name": "FUENTE_BOLD_48",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:.]",
+                "file": "fonts/DS-DIGI.TTF",
+                "name": "EJEMPLO_44",
+                "type": "font"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/OSP-DIN_44.ttf",
+                "name": "FONT_OSP_DIN_44",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "cf",
+    "uuid": "4ef07f39-5e7f-4213-a29a-edf0c442188c",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
