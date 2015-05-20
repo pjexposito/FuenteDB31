@@ -9,6 +9,17 @@
     "resources": {
         "media": [
             {
+                "file": "images/descarga.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9]",
+                "file": "fonts/TinyPebble.ttf",
+                "name": "Tiny_8",
+                "type": "font"
+            },
+            {
                 "characterRegex": "[A-Z,0-9]",
                 "file": "fonts/LetrasCasio.ttf",
                 "name": "casio_24",
@@ -19,11 +30,6 @@
                 "file": "fonts/Fuentedia.ttf",
                 "name": "DIA_32",
                 "type": "font"
-            },
-            {
-                "file": "images/fondo.png",
-                "name": "IMAGE_BACKGROUND",
-                "type": "png"
             },
             {
                 "characterRegex": "[0-9]",

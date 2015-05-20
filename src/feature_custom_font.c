@@ -9,7 +9,7 @@
 static Window *window;
 static GBitmap *background_image;
 static BitmapLayer *background_layer;
-static TextLayer *text_layer, *text_layer2, *text_layer3, *text_layer4, *text_layer5, *text_layer6;
+static TextLayer *text_layer, *text_layer2, *text_layer3, *text_layer4, *text_layer5, *text_layer6, *text_layer7;
 
 static void init() {
   window = window_create();
@@ -27,6 +27,7 @@ static void init() {
   GFont custom_font2 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_MINI_BOLD_32));
   GFont custom_font3 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_DIA_32));
   GFont custom_font4 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_casio_24));
+  GFont custom_font7 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_Tiny_8));
 
   text_layer = text_layer_create((GRect) { .origin = { 7, 69 }, .size = { 100, 70 } });
   text_layer_set_text(text_layer, "12:44");
@@ -64,6 +65,12 @@ static void init() {
   text_layer_set_font(text_layer5, custom_font4);
     text_layer_set_background_color(text_layer5, GColorClear);
   layer_add_child(window_layer, text_layer_get_layer(text_layer5));
+  
+        text_layer7 = text_layer_create((GRect) { .origin = { 14, 41}, .size = { 30, 30 } });
+  text_layer_set_text(text_layer7, "70");
+  text_layer_set_font(text_layer7, custom_font7);
+    text_layer_set_background_color(text_layer7, GColorClear);
+  layer_add_child(window_layer, text_layer_get_layer(text_layer7));
 }
 
 static void deinit() {
@@ -73,6 +80,8 @@ static void deinit() {
   text_layer_destroy(text_layer4);
   text_layer_destroy(text_layer5);
   text_layer_destroy(text_layer6);
+    text_layer_destroy(text_layer7);
+
     layer_remove_from_parent(bitmap_layer_get_layer(background_layer));
   bitmap_layer_destroy(background_layer);
   gbitmap_destroy(background_image);
