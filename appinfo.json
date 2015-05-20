@@ -9,6 +9,11 @@
     "resources": {
         "media": [
             {
+                "file": "images/fondo.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            },
+            {
                 "characterRegex": "[0-9]",
                 "file": "fonts/PBL_Fecha.ttf",
                 "name": "FUENTE_FECHA_32",
@@ -38,11 +43,6 @@
                 "name": "FUENTE_HORA_64",
                 "trackingAdjust": -8,
                 "type": "font"
-            },
-            {
-                "file": "images/descarga.png",
-                "name": "IMAGE_BACKGROUND",
-                "type": "png"
             }
         ]
     },
