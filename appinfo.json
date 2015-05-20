@@ -9,6 +9,12 @@
     "resources": {
         "media": [
             {
+                "characterRegex": "[A-Z,0-9]",
+                "file": "fonts/LetrasCasio.ttf",
+                "name": "casio_24",
+                "type": "font"
+            },
+            {
                 "characterRegex": "[0-9]",
                 "file": "fonts/Fuentedia.ttf",
                 "name": "DIA_32",
