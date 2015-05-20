@@ -10,6 +10,17 @@
         "media": [
             {
                 "characterRegex": "[0-9]",
+                "file": "fonts/Fuentedia.ttf",
+                "name": "DIA_32",
+                "type": "font"
+            },
+            {
+                "file": "images/fondo.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9]",
                 "file": "fonts/digitospequeos.ttf",
                 "name": "MINI_BOLD_32",
                 "type": "font"
@@ -23,10 +34,13 @@
             }
         ]
     },
-    "sdkVersion": "2",
+    "sdkVersion": "3",
     "shortName": "cf",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "4ef07f39-5e7f-4213-a29a-edf0c442188c",
-    "versionCode": 1,
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": false
