@@ -9,40 +9,40 @@
     "resources": {
         "media": [
             {
-                "file": "images/descarga.png",
-                "name": "IMAGE_BACKGROUND",
-                "type": "png"
+                "characterRegex": "[0-9]",
+                "file": "fonts/PBL_Fecha.ttf",
+                "name": "FUENTE_FECHA_32",
+                "type": "font"
             },
             {
                 "characterRegex": "[0-9]",
-                "file": "fonts/TinyPebble.ttf",
-                "name": "Tiny_8",
+                "file": "fonts/PBL_Segundos.ttf",
+                "name": "FUENTE_SEGUNDOS_32",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9]",
+                "file": "fonts/PBL_Bateria.ttf",
+                "name": "FUENTE_BATERIA_8",
                 "type": "font"
             },
             {
                 "characterRegex": "[A-Z,0-9]",
-                "file": "fonts/LetrasCasio.ttf",
-                "name": "casio_24",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9]",
-                "file": "fonts/Fuentedia.ttf",
-                "name": "DIA_32",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9]",
-                "file": "fonts/digitospequeos.ttf",
-                "name": "MINI_BOLD_32",
+                "file": "fonts/PBL_Letras.ttf",
+                "name": "FUENTE_LETRAS_24",
                 "type": "font"
             },
             {
                 "characterRegex": "[0-9:]",
-                "file": "fonts/digitos.ttf",
-                "name": "EJEMPLO_BOLD_64",
+                "file": "fonts/PBL_Hora.ttf",
+                "name": "FUENTE_HORA_64",
                 "trackingAdjust": -8,
                 "type": "font"
+            },
+            {
+                "file": "images/descarga.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
             }
         ]
     },
